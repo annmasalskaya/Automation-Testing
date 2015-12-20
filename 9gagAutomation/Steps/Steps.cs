@@ -66,5 +66,12 @@ namespace TestAutomation.Steps
             postPage.OpenPage();
             return postPage.GetLastCommentAuthor().Equals(username) && postPage.GetLastCommentMessage().Equals(comment);
         }
+
+        public string TitleXmasText()
+        {
+            Pages.XmasPage xmasPage = new Pages.XmasPage(driver);
+            xmasPage.OpenPage();
+            return xmasPage.GetTitleText();
+        }
     }
 }

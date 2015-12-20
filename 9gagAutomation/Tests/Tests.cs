@@ -15,6 +15,7 @@ namespace TestAutomation
         private const string PASSWORD = "testautomation";
         private const string SEARCH_TERM_POPULAR = "gif";
         private const string SEARCH_TERM_UNPOPULAR = "azaza";
+        private const string SECTION_XMAS = "Xmas";
 
         [SetUp]
         public void Init()
@@ -63,6 +64,13 @@ namespace TestAutomation
             steps.Login(EMAIL, PASSWORD);
             steps.AddCommentForPost(message);
             Assert.True(steps.CommentIAdded(message, USERNAME));
+        }
+
+        [TestCase(Description = "Open Section succesfully.")]
+        public void OpenSection()
+        {
+            log.Info("Open Section Test Case is started.");
+            Assert.True(steps.TitleXmasText().Equals(SECTION_XMAS));
         }
 
     }

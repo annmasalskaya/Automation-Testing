@@ -83,6 +83,7 @@
     <Compile Include="Driver\DriverInstance.cs" />
     <Compile Include="Pages\OneHotPostPage.cs" />
     <Compile Include="Pages\MainPage.cs" />
+    <Compile Include="Pages\XmasPage.cs" />
     <Compile Include="Steps\Steps.cs" />
     <Compile Include="Tests\Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

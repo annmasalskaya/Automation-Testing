@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="4" result="Passed" total="4" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.0.5813.39036" clr-version="4.0.30319.34209" start-time="2015-12-20 12:56:31Z" end-time="2015-12-20 13:00:26Z" duration="234.731269">
+  <command-line><![CDATA["C:\Program Files (x86)\NUnit.org\nunit-console\nunit3-console.exe"  D:\dotnet\GitHubAutomation\bin\Debug\Test9gagAutomation.dll]]></command-line>
+  <test-suite type="Assembly" id="1-1009" name="D:\dotnet\GitHubAutomation\bin\Debug\Test9gagAutomation.dll" fullname="D:\dotnet\GitHubAutomation\bin\Debug\Test9gagAutomation.dll" runstate="Runnable" testcasecount="4" result="Passed" duration="234.628042" total="4" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="_PID" value="10960" />
+      <property name="_APPDOMAIN" value="test-domain-" />
+    </properties>
+    <test-suite type="Namespace" id="1-1010" name="TestAutomation" fullname="TestAutomation" runstate="Runnable" testcasecount="4" result="Passed" duration="234.599261" total="4" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="TestFixture" id="1-1000" name="Tests" fullname="TestAutomation.Tests" runstate="Runnable" testcasecount="4" result="Passed" duration="234.596606" total="4" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="ParameterizedTest" id="1-1007" name="AddCommentForPost" fullname="TestAutomation.Tests.AddCommentForPost" runstate="Runnable" testcasecount="1" result="Passed" duration="63.205860" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <test-case id="1-1008" name="AddCommentForPost()" fullname="TestAutomation.Tests.AddCommentForPost()" runstate="Runnable" result="Passed" duration="63.196767" asserts="1">
+            <properties>
+              <property name="_DESCRIPTION" value="Comment is added successfully." />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedTest" id="1-1001" name="OneCanLogin9gag9" fullname="TestAutomation.Tests.OneCanLogin9gag9" runstate="Runnable" testcasecount="1" result="Passed" duration="72.087102" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <test-case id="1-1002" name="OneCanLogin9gag9()" fullname="TestAutomation.Tests.OneCanLogin9gag9()" runstate="Runnable" result="Passed" duration="72.085384" asserts="1">
+            <properties>
+              <property name="_DESCRIPTION" value="Successful loged in." />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedTest" id="1-1003" name="SearchPopular" fullname="TestAutomation.Tests.SearchPopular" runstate="Runnable" testcasecount="1" result="Passed" duration="43.872990" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <test-case id="1-1004" name="SearchPopular()" fullname="TestAutomation.Tests.SearchPopular()" runstate="Runnable" result="Passed" duration="43.872156" asserts="1">
+            <properties>
+              <property name="_DESCRIPTION" value="Search for popular query is not empty." />
+            </properties>
+          </test-case>
+        </test-suite>
+        <test-suite type="ParameterizedTest" id="1-1005" name="SearchUnpopular" fullname="TestAutomation.Tests.SearchUnpopular" runstate="Runnable" testcasecount="1" result="Passed" duration="54.628578" total="1" passed="0" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <test-case id="1-1006" name="SearchUnpopular()" fullname="TestAutomation.Tests.SearchUnpopular()" runstate="Runnable" result="Passed" duration="54.627884" asserts="1">
+            <properties>
+              <property name="_DESCRIPTION" value="Search for unpopular query is empty." />
+            </properties>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

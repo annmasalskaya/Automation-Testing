@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9gagAutomation", "GitHubAutomation\9gagAutomation.csproj", "{C2708C88-282C-4AAB-8205-E24897FF2A67}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9gagAutomation", "9gagAutomation\9gagAutomation.csproj", "{C2708C88-282C-4AAB-8205-E24897FF2A67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,126 +1,34 @@
-2015-12-20 15:33:50,260 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 15:33:50,271 [TestRunnerThread] INFO  TestAutomation.Tests - Add Comment Test Case is started.
-2015-12-20 15:34:01,963 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
-2015-12-20 15:34:10,321 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Log in is permormed.
-2015-12-20 15:34:10,321 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Login step is performed.
-2015-12-20 15:34:17,395 [TestRunnerThread] INFO  TestAutomation.Pages.OneHotPostPage - One Hot Post Page opened
-2015-12-20 15:34:17,850 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Add comment step is performed.
-2015-12-20 15:34:22,922 [TestRunnerThread] INFO  TestAutomation.Pages.OneHotPostPage - One Hot Post Page opened
-2015-12-20 15:34:24,752 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 15:34:28,098 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 15:34:28,098 [TestRunnerThread] INFO  TestAutomation.Tests - One Can Login Test Case is started.
-2015-12-20 15:34:35,122 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
-2015-12-20 15:34:35,987 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 15:34:35,987 [TestRunnerThread] INFO  TestAutomation.Tests - Search Popular Test Case is started.
-2015-12-20 15:34:36,037 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
-2015-12-20 15:34:37,103 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 15:34:37,103 [TestRunnerThread] INFO  TestAutomation.Tests - Search Unpopular Test Case is started.
-2015-12-20 15:34:37,106 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
-2015-12-20 15:45:26,086 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 15:45:26,097 [TestRunnerThread] INFO  TestAutomation.Tests - Add Comment Test Case is started.
-2015-12-20 15:45:39,145 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
-2015-12-20 15:45:45,949 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Log in is permormed.
-2015-12-20 15:45:45,949 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Login step is performed.
-2015-12-20 15:45:54,050 [TestRunnerThread] INFO  TestAutomation.Pages.OneHotPostPage - One Hot Post Page opened
-2015-12-20 15:45:54,310 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Add comment step is performed.
-2015-12-20 15:45:59,224 [TestRunnerThread] INFO  TestAutomation.Pages.OneHotPostPage - One Hot Post Page opened
-2015-12-20 15:46:00,695 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 15:46:03,666 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 15:46:03,667 [TestRunnerThread] INFO  TestAutomation.Tests - One Can Login Test Case is started.
-2015-12-20 15:46:15,591 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
-2015-12-20 15:46:25,592 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Log in is permormed.
-2015-12-20 15:46:25,593 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Login step is performed.
-2015-12-20 15:46:31,838 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Profile opened
-2015-12-20 15:46:31,895 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Profile username istestautomation
-2015-12-20 15:46:33,013 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 15:46:35,985 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 15:46:35,988 [TestRunnerThread] INFO  TestAutomation.Tests - Open Section Test Case is started.
-2015-12-20 15:46:48,270 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
-2015-12-20 15:46:55,285 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Log in is permormed.
-2015-12-20 15:46:55,285 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Login step is performed.
-2015-12-20 15:46:59,720 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Profile opened
-2015-12-20 15:46:59,773 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Profile username istestautomation
-2015-12-20 15:47:01,109 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 15:47:03,688 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 15:47:03,688 [TestRunnerThread] INFO  TestAutomation.Tests - Search Popular Test Case is started.
-2015-12-20 15:47:14,380 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
-2015-12-20 15:47:19,908 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Search is performed.
-2015-12-20 15:47:19,908 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Search step is performed.
-2015-12-20 15:47:21,380 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 15:47:23,639 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 15:47:23,640 [TestRunnerThread] INFO  TestAutomation.Tests - Search Unpopular Test Case is started.
-2015-12-20 15:47:24,427 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
-2015-12-20 16:01:58,442 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 16:01:58,454 [TestRunnerThread] INFO  TestAutomation.Tests - Open Section Test Case is started.
-2015-12-20 16:02:18,751 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Xmas Page opened
-2015-12-20 16:02:18,751 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Getting of title text is permormed.
-2015-12-20 16:02:20,126 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 16:03:41,663 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 16:03:41,684 [TestRunnerThread] INFO  TestAutomation.Tests - Open Section Test Case is started.
-2015-12-20 16:03:56,757 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Xmas Page opened
-2015-12-20 16:03:56,757 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Getting of title text is permormed.
-2015-12-20 16:03:58,213 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 16:04:43,508 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 16:04:43,524 [TestRunnerThread] INFO  TestAutomation.Tests - Open Section Test Case is started.
-2015-12-20 16:05:03,846 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Xmas Page opened
-2015-12-20 16:05:04,024 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Getting of title text is permormed.
-2015-12-20 16:05:05,443 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 16:07:54,630 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 16:07:54,664 [TestRunnerThread] INFO  TestAutomation.Tests - Open Section Test Case is started.
-2015-12-20 16:08:10,340 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Xmas Page opened
-2015-12-20 16:08:10,404 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Getting of title text is permormed.
-2015-12-20 16:08:11,774 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 16:09:18,088 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 16:09:18,099 [TestRunnerThread] INFO  TestAutomation.Tests - Open Section Test Case is started.
-2015-12-20 16:09:31,868 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Xmas Page opened
-2015-12-20 16:09:31,930 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Getting of title text is permormed.
-2015-12-20 16:09:33,292 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 16:12:25,879 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 16:12:25,893 [TestRunnerThread] INFO  TestAutomation.Tests - Open Section Test Case is started.
-2015-12-20 16:12:57,306 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Xmas Page opened
-2015-12-20 16:12:57,372 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Getting of title text is permormed.
-2015-12-20 16:12:58,109 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 16:13:26,459 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 16:13:26,490 [TestRunnerThread] INFO  TestAutomation.Tests - Open Section Test Case is started.
-2015-12-20 16:13:42,572 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Xmas Page opened
-2015-12-20 16:13:42,623 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Getting of title text is permormed.
-2015-12-20 16:13:43,981 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 16:16:11,639 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 16:16:11,711 [TestRunnerThread] INFO  TestAutomation.Tests - Open Section Test Case is started.
-2015-12-20 16:16:30,629 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Xmas Page opened
-2015-12-20 16:16:30,630 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Getting of title text is permormed.
-2015-12-20 16:16:32,149 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 16:17:26,579 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 16:17:26,631 [TestRunnerThread] INFO  TestAutomation.Tests - Add Comment Test Case is started.
-2015-12-20 16:17:41,322 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
-2015-12-20 16:17:54,860 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Log in is permormed.
-2015-12-20 16:17:54,860 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Login step is performed.
-2015-12-20 16:18:04,865 [TestRunnerThread] INFO  TestAutomation.Pages.OneHotPostPage - One Hot Post Page opened
-2015-12-20 16:18:05,162 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Add comment step is performed.
-2015-12-20 16:18:10,048 [TestRunnerThread] INFO  TestAutomation.Pages.OneHotPostPage - One Hot Post Page opened
-2015-12-20 16:18:11,348 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 16:18:15,698 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 16:18:15,699 [TestRunnerThread] INFO  TestAutomation.Tests - One Can Login Test Case is started.
-2015-12-20 16:18:29,716 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
-2015-12-20 16:18:37,566 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Log in is permormed.
-2015-12-20 16:18:37,566 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Login step is performed.
-2015-12-20 16:18:43,670 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Profile opened
-2015-12-20 16:18:43,779 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Profile username istestautomation
-2015-12-20 16:18:43,905 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 16:18:46,269 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 16:18:46,270 [TestRunnerThread] INFO  TestAutomation.Tests - Open Section Test Case is started.
-2015-12-20 16:19:04,648 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Xmas Page opened
-2015-12-20 16:19:04,649 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Getting of title text is permormed.
-2015-12-20 16:19:06,096 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 16:19:08,333 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 16:19:08,334 [TestRunnerThread] INFO  TestAutomation.Tests - Search Popular Test Case is started.
-2015-12-20 16:19:21,795 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
-2015-12-20 16:19:28,859 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Search is performed.
-2015-12-20 16:19:28,859 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Search step is performed.
-2015-12-20 16:19:30,285 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
-2015-12-20 16:19:32,441 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
-2015-12-20 16:19:32,442 [TestRunnerThread] INFO  TestAutomation.Tests - Search Unpopular Test Case is started.
-2015-12-20 16:19:46,414 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
-2015-12-20 16:19:52,407 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Search is performed.
-2015-12-20 16:19:52,407 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Search step is performed.
-2015-12-20 16:20:23,769 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
+2015-12-26 00:38:09,406 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-26 00:38:09,438 [TestRunnerThread] INFO  TestAutomation.Tests - Add Comment Test Case is started.
+2015-12-26 00:38:22,015 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
+2015-12-26 00:38:29,035 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Log in is permormed.
+2015-12-26 00:38:29,035 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Login step is performed.
+2015-12-26 00:38:37,578 [TestRunnerThread] INFO  TestAutomation.Pages.OneHotPostPage - One Hot Post Page opened
+2015-12-26 00:38:37,824 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Add comment step is performed.
+2015-12-26 00:38:42,130 [TestRunnerThread] INFO  TestAutomation.Pages.OneHotPostPage - One Hot Post Page opened
+2015-12-26 00:38:43,618 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
+2015-12-26 00:38:45,872 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-26 00:38:45,873 [TestRunnerThread] INFO  TestAutomation.Tests - One Can Login Test Case is started.
+2015-12-26 00:38:59,522 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
+2015-12-26 00:39:05,437 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Log in is permormed.
+2015-12-26 00:39:05,437 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Login step is performed.
+2015-12-26 00:39:10,151 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Profile opened
+2015-12-26 00:39:10,204 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Profile username istestautomation
+2015-12-26 00:39:11,547 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
+2015-12-26 00:39:13,745 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-26 00:39:13,746 [TestRunnerThread] INFO  TestAutomation.Tests - Open Section Test Case is started.
+2015-12-26 00:39:27,291 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Xmas Page opened
+2015-12-26 00:39:27,291 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Getting of title text is permormed.
+2015-12-26 00:39:28,663 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
+2015-12-26 00:39:31,024 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-26 00:39:31,025 [TestRunnerThread] INFO  TestAutomation.Tests - Search Popular Test Case is started.
+2015-12-26 00:39:44,742 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
+2015-12-26 00:39:51,235 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Search is performed.
+2015-12-26 00:39:51,244 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Search step is performed.
+2015-12-26 00:39:52,442 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
+2015-12-26 00:39:56,054 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-26 00:39:56,055 [TestRunnerThread] INFO  TestAutomation.Tests - Search Unpopular Test Case is started.
+2015-12-26 00:40:08,996 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
+2015-12-26 00:40:14,086 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Search is performed.
+2015-12-26 00:40:14,086 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Search step is performed.
+2015-12-26 00:40:45,516 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.

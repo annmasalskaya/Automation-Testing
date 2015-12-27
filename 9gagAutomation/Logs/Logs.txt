@@ -150,3 +150,9 @@
 2015-12-27 02:52:12,591 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Search is performed.
 2015-12-27 02:52:12,592 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Search step is performed.
 2015-12-27 02:52:43,976 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
+2015-12-28 00:23:25,517 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-28 00:23:25,541 [TestRunnerThread] INFO  TestAutomation.Tests - Search Unpopular Test Case is started.
+2015-12-28 00:23:39,205 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
+2015-12-28 00:23:43,952 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Search is performed.
+2015-12-28 00:23:43,952 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Search step is performed.
+2015-12-28 00:24:15,205 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.

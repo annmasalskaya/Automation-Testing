@@ -3,6 +3,7 @@ using OpenQA.Selenium.Support;
 using OpenQA.Selenium;
 using log4net;
 
+
 namespace TestAutomation
 {
     [TestFixture]
@@ -48,7 +49,6 @@ namespace TestAutomation
         }
 
         [TestCase(Description = "Search for unpopular query is empty.")]
-        [ExpectedException("OpenQA.Selenium.NoSuchElementException")]
         public void SearchUnpopular()
         {
             log.Info("Search Unpopular Test Case is started.");

@@ -78,7 +78,15 @@ namespace TestAutomation.Pages
 
         public bool SearchResultsIsFind()
         {
-            return driver.FindElement(By.ClassName("section-header")).Displayed;
+            try
+            {
+                return driver.FindElement(By.ClassName("section-header")).Displayed;
+            }
+            catch
+            {
+                return false;
+            }
+           
         }
 
         public void Logout9gag()

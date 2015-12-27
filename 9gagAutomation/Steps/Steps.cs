@@ -25,9 +25,9 @@ namespace TestAutomation.Steps
 
         public void Login(string email, string password)
         {
-            Pages.LoginPage mainPage = new Pages.LoginPage(driver);
-            mainPage.OpenPage();
-            mainPage.Login9gag(email, password);
+            Pages.LoginPage loginPage = new Pages.LoginPage(driver);
+            loginPage.OpenPage();
+            loginPage.Login9gag(email, password);
             log.Info("Login step is performed.");
         }
 

@@ -99,3 +99,54 @@
 2015-12-27 02:13:31,285 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Profile opened
 2015-12-27 02:13:31,428 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Profile username istestautomation
 2015-12-27 02:13:32,564 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
+2015-12-27 02:44:48,827 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-27 02:44:48,838 [TestRunnerThread] INFO  TestAutomation.Tests - Add Comment Test Case is started.
+2015-12-27 02:45:02,027 [TestRunnerThread] INFO  TestAutomation.Pages.LoginPage - Login Page opened
+2015-12-27 02:47:02,772 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-27 02:47:02,772 [TestRunnerThread] INFO  TestAutomation.Tests - One Can Login Test Case is started.
+2015-12-27 02:48:02,790 [TestRunnerThread] INFO  TestAutomation.Pages.LoginPage - Login Page opened
+2015-12-27 02:48:14,288 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-27 02:48:14,292 [TestRunnerThread] INFO  TestAutomation.Tests - One Can Logout Test Case is started.
+2015-12-27 02:48:14,296 [TestRunnerThread] INFO  TestAutomation.Pages.LoginPage - Login Page opened
+2015-12-27 02:48:14,405 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-27 02:48:14,405 [TestRunnerThread] INFO  TestAutomation.Tests - Search Popular Test Case is started.
+2015-12-27 02:48:14,411 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
+2015-12-27 02:48:14,514 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-27 02:48:14,514 [TestRunnerThread] INFO  TestAutomation.Tests - Search Unpopular Test Case is started.
+2015-12-27 02:48:14,517 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
+2015-12-27 02:50:13,360 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-27 02:50:13,397 [TestRunnerThread] INFO  TestAutomation.Tests - Add Comment Test Case is started.
+2015-12-27 02:50:18,397 [TestRunnerThread] INFO  TestAutomation.Pages.LoginPage - Login Page opened
+2015-12-27 02:50:29,388 [TestRunnerThread] INFO  TestAutomation.Pages.LoginPage - Log in is permormed.
+2015-12-27 02:50:29,389 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Login step is performed.
+2015-12-27 02:50:37,343 [TestRunnerThread] INFO  TestAutomation.Pages.OneHotPostPage - One Hot Post Page opened
+2015-12-27 02:50:37,696 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Add comment step is performed.
+2015-12-27 02:50:38,929 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
+2015-12-27 02:50:42,063 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-27 02:50:42,064 [TestRunnerThread] INFO  TestAutomation.Tests - One Can Login Test Case is started.
+2015-12-27 02:50:47,170 [TestRunnerThread] INFO  TestAutomation.Pages.LoginPage - Login Page opened
+2015-12-27 02:51:02,229 [TestRunnerThread] INFO  TestAutomation.Pages.LoginPage - Log in is permormed.
+2015-12-27 02:51:02,229 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Login step is performed.
+2015-12-27 02:51:07,153 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Profile opened
+2015-12-27 02:51:07,258 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Profile username istestautomation
+2015-12-27 02:51:08,571 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
+2015-12-27 02:51:11,253 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-27 02:51:11,253 [TestRunnerThread] INFO  TestAutomation.Tests - One Can Logout Test Case is started.
+2015-12-27 02:51:16,283 [TestRunnerThread] INFO  TestAutomation.Pages.LoginPage - Login Page opened
+2015-12-27 02:51:26,443 [TestRunnerThread] INFO  TestAutomation.Pages.LoginPage - Log in is permormed.
+2015-12-27 02:51:26,443 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Login step is performed.
+2015-12-27 02:51:30,015 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
+2015-12-27 02:51:34,239 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Log out is permormed.
+2015-12-27 02:51:35,616 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
+2015-12-27 02:51:38,649 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-27 02:51:38,650 [TestRunnerThread] INFO  TestAutomation.Tests - Search Popular Test Case is started.
+2015-12-27 02:51:49,343 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
+2015-12-27 02:51:53,102 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Search is performed.
+2015-12-27 02:51:53,102 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Search step is performed.
+2015-12-27 02:51:54,495 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.
+2015-12-27 02:51:57,330 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is started.
+2015-12-27 02:51:57,331 [TestRunnerThread] INFO  TestAutomation.Tests - Search Unpopular Test Case is started.
+2015-12-27 02:52:07,803 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Main Page opened
+2015-12-27 02:52:12,591 [TestRunnerThread] INFO  TestAutomation.Pages.MainPage - Search is performed.
+2015-12-27 02:52:12,592 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Search step is performed.
+2015-12-27 02:52:43,976 [TestRunnerThread] INFO  TestAutomation.Steps.Steps - Browser is closed.

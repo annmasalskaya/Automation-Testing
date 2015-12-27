@@ -23,7 +23,6 @@ namespace TestAutomation.Pages
         [FindsBy(How = How.XPath, Using = "//input[@value='Log in']")]
         private IWebElement buttonSubmit;
 
-        private Actions action;
         private IWebDriver driver;
 
         public LoginPage(IWebDriver driver)

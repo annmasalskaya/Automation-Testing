@@ -1,7 +1,5 @@
 ﻿using OpenQA.Selenium;
 using System;
-using OpenQA.Selenium.Firefox;
-using System.IO;
 using OpenQA.Selenium.Chrome;
 
 namespace TestAutomation.Driver
@@ -16,8 +14,7 @@ namespace TestAutomation.Driver
         {
             if (driver == null)
             {
-                string path = Path.GetDirectoryName(Path.GetDirectoryName(System.IO.Directory.GetCurrentDirectory()));
-                driver = new ChromeDriver(path);
+                driver = new ChromeDriver();
                 driver.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(30));
                 driver.Manage().Window.Maximize();
             }

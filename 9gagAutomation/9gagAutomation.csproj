@@ -90,8 +90,11 @@
     <Compile Include="Tests\Tests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+   <Content Include="..\packages\Selenium.WebDriver.ChromeDriver.2.20.0.0\driver\chromedriver.exe">
+      <Link>chromedriver.exe</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>

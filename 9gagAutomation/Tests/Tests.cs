@@ -48,13 +48,13 @@ namespace TestAutomation
         }
 
         [TestCase(Description = "Search for unpopular query is empty.")]
+        [ExpectedException("OpenQA.Selenium.NoSuchElementException")]
         public void SearchUnpopular()
         {
             log.Info("Search Unpopular Test Case is started.");
             steps.Search(SEARCH_TERM_UNPOPULAR);
             Assert.False(steps.SearchIsNotEmpty());
         }
-
 
         [TestCase(Description = "Comment is added successfully.")]
         public void AddCommentForPost()
@@ -63,14 +63,16 @@ namespace TestAutomation
             string message = "Awesome!";
             steps.Login(EMAIL, PASSWORD);
             steps.AddCommentForPost(message);
-            Assert.True(steps.CommentIAdded(message, USERNAME));
+            Assert.True(steps.CommentIsAdded(message, USERNAME));
         }
 
-        [TestCase(Description = "Open Section succesfully.")]
-        public void OpenSection()
+        [TestCase(Description = "Successful loged out.")]
+        public void OneCanLogout9gag9()
         {
-            log.Info("Open Section Test Case is started.");
-            Assert.True(steps.TitleXmasText().Equals(SECTION_XMAS));
+            log.Info("One Can Logout Test Case is started.");
+            steps.Login(EMAIL, PASSWORD);
+            steps.Logout();
+            Assert.True(steps.WasLogout());
         }
 
     }

@@ -25,7 +25,7 @@ namespace TestAutomation.Steps
 
         public void Login(string email, string password)
         {
-            Pages.MainPage mainPage = new Pages.MainPage(driver);
+            Pages.LoginPage mainPage = new Pages.LoginPage(driver);
             mainPage.OpenPage();
             mainPage.Login9gag(email, password);
             log.Info("Login step is performed.");
@@ -49,7 +49,7 @@ namespace TestAutomation.Steps
         public bool SearchIsNotEmpty()
         {
             Pages.MainPage mainPage = new Pages.MainPage(driver);
-            return !mainPage.SearchResults().Equals("");
+            return mainPage.SearchResultsIsFind();
         }
 
         public void AddCommentForPost(string comment)
@@ -60,18 +60,25 @@ namespace TestAutomation.Steps
             log.Info("Add comment step is performed.");
         }
 
-        public bool CommentIAdded(string comment, string username)
+        public bool CommentIsAdded(string comment, string username)
         {
             Pages.OneHotPostPage postPage = new Pages.OneHotPostPage(driver);
-            postPage.OpenPage();
             return postPage.GetLastCommentAuthor().Equals(username) && postPage.GetLastCommentMessage().Equals(comment);
         }
 
-        public string TitleXmasText()
-        {
-            Pages.XmasPage xmasPage = new Pages.XmasPage(driver);
-            xmasPage.OpenPage();
-            return xmasPage.GetTitleText();
+        public void Logout()
+        {   
+            Pages.MainPage mainPage = new Pages.MainPage(driver);
+            mainPage.OpenPage();
+            mainPage.Logout9gag();
         }
+
+        public bool WasLogout()
+        {
+            Pages.MainPage mainPage = new Pages.MainPage(driver);
+            return mainPage.LoginButtonIsDisplayed();
+        }
+
+        
     }
 }

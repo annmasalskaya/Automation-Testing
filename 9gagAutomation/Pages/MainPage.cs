@@ -4,7 +4,6 @@ using log4net;
 using OpenQA.Selenium.Interactions;
 using System;
 using OpenQA.Selenium.Support.UI;
-using System.Collections.Generic;
 
 
 namespace TestAutomation.Pages
@@ -14,15 +13,6 @@ namespace TestAutomation.Pages
         private static readonly ILog log = LogManager.GetLogger(typeof(MainPage));
 
         private const string BASE_URL = "http://9gag.com/";
-
-        [FindsBy(How = How.Id, Using = "jsid-login-email-name")]
-        private IWebElement inputLogin;
-
-        [FindsBy(How = How.Id, Using = "login-email-password")]
-        private IWebElement inputPassword;
-
-        [FindsBy(How = How.XPath, Using = "//input[@value='Log in']")]
-        private IWebElement buttonSubmit;
 
         [FindsBy(How = How.LinkText, Using = "Log in")]
         private IWebElement linkLogIn;
@@ -37,10 +27,16 @@ namespace TestAutomation.Pages
         private IWebElement linkProfile;
 
         [FindsBy(How = How.ClassName, Using = "avatar-container")]
-        private IWebElement linkLoggedInUser;
+        private IWebElement userContainer;
 
         [FindsBy(How = How.ClassName, Using = "info")]
         private IWebElement loggedInUser;
+
+        [FindsBy(How = How.LinkText, Using = "Logout")]
+        private IWebElement linkLogout;
+
+        [FindsBy(How = How.CssSelector, Using = " a[class='btn-mute badge-login-button']")]
+        private IWebElement loginButton;
 
         private Actions action;
 
@@ -59,18 +55,9 @@ namespace TestAutomation.Pages
             log.Info("Main Page opened");
         }
 
-        public void Login9gag(string email, string password)
-        {
-            linkLogIn.Click();
-            inputLogin.SendKeys(email);
-            inputPassword.SendKeys(password);
-            buttonSubmit.Click();
-            log.Info("Log in is permormed.");
-        }
-
         public void OpenProfile()
         {
-            linkLoggedInUser.Click();
+            OpenUserContainerDropDown();
             linkProfile.Click();
             log.Info("Profile opened");
         }
@@ -89,17 +76,27 @@ namespace TestAutomation.Pages
             log.Info("Search is performed.");
         }
 
-        public string SearchResults()
+        public bool SearchResultsIsFind()
         {
-            try
-            {
-                var searchResultAmountLabel = driver.FindElement(By.ClassName("section-header")).Text;
-                return searchResultAmountLabel;
-            }
-            catch
-            {
-                return String.Empty;
-            }
+            return driver.FindElement(By.ClassName("section-header")).Displayed;
         }
+
+        public void Logout9gag()
+        {
+            OpenUserContainerDropDown();
+            linkLogout.Click();
+            log.Info("Log out is permormed.");
+        }
+
+        private void OpenUserContainerDropDown()
+        {
+            userContainer.Click();
+        }
+
+        public bool LoginButtonIsDisplayed()
+        {
+            return loginButton.Displayed;
+        }
+
     }
 }
